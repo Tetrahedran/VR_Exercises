@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 813190020}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Placable
+  m_TagString: Placeable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -992,7 +992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843933373}
   m_Layer: 0
-  m_Name: VRTK_Scripts
+  m_Name: Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1432,7 +1432,7 @@ GameObject:
   - component: {fileID: 1763995765}
   - component: {fileID: 1763995764}
   m_Layer: 0
-  m_Name: VRTKSDK
+  m_Name: SDK Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

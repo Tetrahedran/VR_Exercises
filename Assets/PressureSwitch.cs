@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
-public class Platte : MonoBehaviour
+public class PressureSwitch : MonoBehaviour
 {
     public float speed = 1;
 
@@ -14,7 +14,7 @@ public class Platte : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         GameObject other = collision.gameObject;
-        if(other.tag == "Placable")
+        if(other.tag == "Placeable")
         {
             movePlatte(false);
         }
@@ -23,7 +23,7 @@ public class Platte : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         GameObject other = collision.gameObject;
-        if (other.tag == "Placable")
+        if (other.tag == "Placeable")
         {
             movePlatte(true);
         }
